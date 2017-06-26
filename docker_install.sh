@@ -110,7 +110,7 @@ install_by_arch(){
 	if [ "$ARCH" = "x86_64" ] 
 	then
 		install_docker_amd
-	elif [ "$ARCH" = "armhf" ]
+	elif [ "$ARCH" = "armv7l" ]
 	then
 		install_docker_armhf
 	elif [ "$ARCH" = "aarch64" ]
